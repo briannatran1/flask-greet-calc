@@ -40,3 +40,11 @@ def query_division():
 def process_query_to_int(request):
     """returns query params as integer tuple"""
     return (int(request.args["a"]), int(request.args["b"]))
+
+
+# further study...
+
+# OPERATIONS: {"add": add, "sub": sub, "mult": mult, "div": div}
+
+# @app.get("/<operation>")
+# def query_math(operation):
